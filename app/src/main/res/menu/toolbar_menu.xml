@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Logo"
+        android:id="@+id/logo"
+        android:icon="@drawable/logo"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/baseline_search_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView">
+    </item>
+    <item
+        android:title="New plant"
+        android:id="@+id/new_plant"/>
+    <item
+        android:title="Coś tam"
+        android:id="@+id/costam"/>
+
+</menu>
